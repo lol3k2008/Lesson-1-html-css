@@ -1,0 +1,76 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 35px;
+    
+}
+
+.contact{
+    width: 300px;
+    height: 600px;
+    color: #fff;
+    box-shadow: 1px 1px 30px black;
+    border: 1px solid rgba(255, 255, 255, 0.171);
+    margin-top: 20px;
+
+}
+
+.contact h1{
+    
+    margin-left: 10%;
+
+    
+}
+.contact span{
+    font-size: 33px;
+    margin-left: 10px;
+    color: rgba(65, 105, 225, 0.753);
+
+}
+.contact .inline{
+
+    width: 90%;
+    height: 6px;
+    border-radius: 50%;
+    border-top: 1px solid rgba(167, 161, 185, 0.616);
+    background-color: rgba(65, 105, 225, 0.705);
+    
+}
+.contact p{
+    margin: 30px 70px 0px 70px;
+}
+.row p a{
+
+    text-decoration: none;
+    color: royalblue;
+    font-size: 22px;
+    transition: color .4s
+}
+.row p a:hover{
+    color: #999;
+}
+@media screen and (max-width: 330px) {
+
+    .contact{
+        font-size: 16px;
+    }
+    .row .contact p{
+        font-size: 10px;
+        
+    }
+
+
+
+
+};

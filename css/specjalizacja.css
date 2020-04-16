@@ -1,0 +1,47 @@
+
+.men-hamb{
+    z-index: 10;
+}
+
+.specjalization{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    
+}
+
+
+
+.specjalization .bg{
+   
+
+   display: block;
+    border: 1px solid rgba(255, 255, 255, 0.322);
+    margin: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.514);
+    padding-top: 20px;
+}
+.specjalization  h1{
+    display: block;
+    margin: 10px auto;
+}
+.specjalization p{
+    display: block;
+  font-size: 22px;
+
+}
+.specjalization .inline{
+
+    width: 80%;
+    height: 3px;
+    background-color: royalblue;
+    margin: 0 auto;
+    border-bottom: 1px solid blue;
+    border-radius: 50%;
+}

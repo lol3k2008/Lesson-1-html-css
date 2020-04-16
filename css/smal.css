@@ -1,0 +1,61 @@
+nav ul{
+    display: none;
+}
+.men-hamb{
+    position: relative;
+}
+.men-hamb i{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.mobile-menu{
+    position: relative;
+}
+.mobile-menu ul{
+    position: absolute;
+    top: 10px;
+    left: -300px;
+    background-color: rgba(68, 68, 68, 0.349);
+    transition: all .6s;
+    
+}
+.mobile-menu ul li{
+    padding: 10px;
+}
+
+.mobile-menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    height: 60px;
+    width: 240px;
+    background-color: rgba(51, 51, 51, 0.472);
+    text-align: center;
+    line-height: 60px;
+    border-radius: 10px;
+    transition: all .4s ;
+    
+
+}
+.mobile-menu ul li a:hover{
+   color: royalblue;
+   background-color:rgba(85, 79, 79, 0.472);
+}
+
+.show-menu{
+   transform: translate(300px);
+}
+
+@media(max-width: 710px){
+    header{
+        padding: 0px 20px;
+        text-align: center;
+    }
+}
